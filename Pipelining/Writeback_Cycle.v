@@ -1,3 +1,5 @@
+`include "Mux.v"
+
 module writeback_cycle(clk, rst, ResultSrcW, PCPlus4W, ALU_ResultW, ReadDataW, ResultW);
 
 // Declaration of IOs
